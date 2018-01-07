@@ -23,6 +23,33 @@ go get github.com/jroimartin/gocui
 go run main.go
 ```
 
+## Usage
+
+```go
+package main
+
+import (
+	"fmt"
+
+	"github.com/maja42/fuzzy"
+)
+
+func main() {
+	pattern := "re"
+	strings := []string{
+		"The Seven Samurai", "Bonnie and Clyde", "Reservoir Dogs", "Airplane!", "Pan's Labyrinth", "鋼の錬金術師",
+	}
+
+	matches := fuzzy.Rank(pattern, strings)
+
+	for _, match := range matches {
+		fmt.Println(match.Str)
+		// Output:
+		// Reservoir Dogs
+		// Airplane!
+	}
+}
+```
 
 ## Performance
 
