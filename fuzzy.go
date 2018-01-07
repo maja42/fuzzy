@@ -20,8 +20,8 @@ const (
 
 const (
 	sequentialBonus = 15 // Bonus for adjacent matches
-	separatorBonus  = 30 // Bonus if a match occurs right after a separator
-	camelCaseBonus  = 30 // Bonus if a matched rune is uppercase, while the preceeding rune is lower case
+	separatorBonus  = 20 // Bonus if a match occurs right after a separator
+	camelCaseBonus  = 20 // Bonus if a matched rune is uppercase, while the preceeding rune is lower case
 	firstRuneBonus  = 15 // Bonus if the first rune is matched
 
 	leadingRunePenalty    = -5  // Penalty for every rune before the first match
