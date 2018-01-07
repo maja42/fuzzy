@@ -1,4 +1,7 @@
 # fuzzy
+[![Build Status](https://travis-ci.org/maja42/fuzzy.svg?branch=master)](https://travis-ci.org/maja42/fuzzy)
+[![Coverage Status](https://coveralls.io/repos/maja42/fuzzy/badge.png?branch=master)](https://coveralls.io/r/maja42/fuzzy?branch=master)
+[![GoDoc](https://godoc.org/github.com/maja42/fuzzy?status.svg)](https://godoc.org/github.com/maja42/fuzzy)
 
 Fuzzy is a fast and simple go library to perform fuzzy string matching similar to Sublime Text.
 
